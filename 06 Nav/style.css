@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav,
+ul {
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 5px;
+  list-style-type: none;
+  background-color: rgb(68, 68, 68);
+}
+
+button,
+#dropdown {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  display: flex;
+  text-align: left;
+}
+
+select :hover {
+  height: 300px;
+}
+
+.hamburger {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(133, 133, 133);
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+
+.hamburger:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.hamburger-menu{
+  width: 30px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+.hamburger{
+  display: flex;
+
+}
+
+}
