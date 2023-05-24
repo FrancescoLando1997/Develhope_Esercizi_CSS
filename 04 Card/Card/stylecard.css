@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight:normal;
+  text-align: left;
+  width: 41vh;
+  height: 65vh;
+  border-style: solid;
+  border-color: rgb(160, 160, 160);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+img {
+  align-items: center;
+  border-bottom: solid rgb(160, 160, 160);
+}
+
+p {
+    padding: 10px;
+  border-bottom: solid rgb(160, 160, 160);
+}
+
+nav{
+    padding: 20px;
+}
+
+h1{
+    padding: 10px;
+}
